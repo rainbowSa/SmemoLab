@@ -1,0 +1,58 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.SmemoLab</groupId>
+  <artifactId>SmemoLab</artifactId>
+  <version>0.0.1-SNAPSHOT</version>
+  <packaging>war</packaging>
+  
+  <dependencies>
+  
+	<dependency>
+   		<groupId>mysql</groupId>
+    	<artifactId>mysql-connector-java</artifactId>
+   		<version>8.0.29</version>
+   		<scope>runtime</scope>
+	</dependency>
+	
+	<dependency>
+	    <groupId>org.eclipse.persistence</groupId>
+	    <artifactId>eclipselink</artifactId>
+	    <version>2.7.7</version>
+	</dependency>
+	
+	<dependency>
+	    <groupId>jakarta.persistence</groupId>
+	    <artifactId>jakarta.persistence-api</artifactId>
+	    <version>2.2.3</version>
+	</dependency>
+	
+	<dependency>
+	    <groupId>org.eclipse.persistence</groupId>
+	    <artifactId>javax.persistence</artifactId>
+	    <version>2.1.0</version>
+	</dependency>
+	
+	<dependency>
+	    <groupId>org.eclipse.persistence</groupId>
+	    <artifactId>commonj.sdo</artifactId>
+	    <version>2.1.1</version>
+	</dependency>
+	
+  </dependencies>
+  
+  <build>
+    <plugins>
+      <plugin>
+        <artifactId>maven-compiler-plugin</artifactId>
+        <version>3.8.1</version>
+        <configuration>
+          <release>11</release>
+        </configuration>
+      </plugin>
+      <plugin>
+        <artifactId>maven-war-plugin</artifactId>
+        <version>3.2.3</version>
+      </plugin>
+    </plugins>
+  </build>
+</project>

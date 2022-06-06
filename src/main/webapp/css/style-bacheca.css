@@ -1,0 +1,60 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,800,700,600,300);
+
+/** css dei  post it  **/
+.postit {
+	position:relative;
+	padding: 25px;
+	padding-top: 15px;
+	display: inline-block;
+	-webkit-box-shadow: 0 8px 10px -7px #999;
+	-moz-box-shadow: 0 8px 10px -7px #999;
+	box-shadow: 0 8px 10px -7px #999;
+	-webkit-border-bottom-right-radius: 60px 10px;
+	-moz-border-radius-bottomright: 60px 10px;
+	border-bottom-right-radius: 60px 10px;
+	margin: 0 0 20px 20px;
+    height: 270px;
+    min-width: 229px;
+	direction:rtl;
+	overflow: auto;
+	
+}
+
+.postit h3 {
+	border-top-width: 2px;
+	border-top-style: dotted;
+	margin: 0 -25px;
+	padding: 15px 25px 0 25px;
+}
+
+.postit {background: #fefabc;}
+.postit h3 {border-top-color: #dbd581;}
+
+.postit:hover {
+  background: #fefabc;
+  transform: scale(1.1);
+  z-index: 9;
+  transition: 0.7s;
+  cursor: pointer;
+}
+
+/* css scrollbar */
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track - colore */
+::-webkit-scrollbar-track {
+  background: #f1f1f1; 
+}
+ 
+/* Handle - colore barra */
+::-webkit-scrollbar-thumb {
+  background: white; 
+}
+
+/* Handle on hover - quando ci vai sopra col mouse */
+::-webkit-scrollbar-thumb:hover {
+  background: #555; 
+}
