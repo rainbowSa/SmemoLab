@@ -3,7 +3,7 @@ Final project work of the course Java Junior Developer sponsored by Generation I
 ## technology used
 - Java
 - JPA
-- EclipseLimk
+- EclipseLink
 - MySql
 - Boostrap
 - HTML
